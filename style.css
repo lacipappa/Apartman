@@ -74,3 +74,16 @@ details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:
   .sources-nav{min-height:64px}
   .sources-back{font-size:.9rem}
 }
+
+
+/* MesterWeb ajánló blokk */
+.web-cta{background:var(--deep);color:#fff;padding:58px 0}
+.web-cta-inner{display:flex;align-items:center;justify-content:space-between;gap:44px}
+.web-cta h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.08;letter-spacing:-.04em;margin:8px 0 14px}
+.web-cta p:not(.eyebrow){max-width:760px;color:#D6E6EB;margin:0}
+.web-cta-button{flex:0 0 auto;background:var(--coral);white-space:nowrap}
+.web-cta-button:hover{background:var(--coral2)}
+@media(max-width:760px){
+  .web-cta-inner{flex-direction:column;align-items:flex-start}
+  .web-cta-button{width:100%}
+}
