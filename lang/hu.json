@@ -103,5 +103,9 @@
   "footer_sources_text": "Képforrások és fotósok megtekintése →",
   "footer_demo": "A tartalom, árak, távolságok és elérhetőségek bemutató adatok.",
   "mobile_book": "IDŐPONTOK",
-  "mobile_call": "HÍVÁS"
+  "mobile_call": "HÍVÁS",
+  "web_sales_eyebrow": "NINCS MÉG WEBOLDALA?",
+  "web_sales_title": "Modern weboldalt szeretne apartmanjához?",
+  "web_sales_text": "Ez a CostaLuz oldal egy bemutató példa. Hasonló, saját névre, képekre, szolgáltatásokra és elérhetőségekre szabott oldalt készítek apartmanok és nyaralószállások számára.",
+  "web_sales_button": "Érdeklődöm a weboldalról →"
 }
