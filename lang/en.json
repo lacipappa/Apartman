@@ -103,5 +103,9 @@
   "footer_sources_text": "View image sources and photographers →",
   "footer_demo": "Content, prices, distances and contact details are demo data.",
   "mobile_book": "CHECK DATES",
-  "mobile_call": "CALL"
+  "mobile_call": "CALL",
+  "web_sales_eyebrow": "DON’T HAVE A WEBSITE YET?",
+  "web_sales_title": "Would you like a modern website for your apartment?",
+  "web_sales_text": "This CostaLuz site is a demo example. I create similar websites tailored to your own name, photos, services and contact details for apartments and holiday rentals.",
+  "web_sales_button": "I'm interested in a website →"
 }
