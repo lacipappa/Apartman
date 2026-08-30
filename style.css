@@ -40,3 +40,37 @@ details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:
 .mobile-bar{display:none}.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.87);z-index:90;display:none;align-items:center;justify-content:center;padding:30px}.lightbox.open{display:flex}.lightbox img{max-width:min(1100px,94vw);max-height:88vh;border-radius:14px}.lightbox button{position:absolute;right:24px;top:18px;background:none;border:0;color:#fff;font-size:2.4rem;cursor:pointer}
 @media(max-width:900px){.nav nav{display:none}.nav{gap:10px}.nav-right{margin-left:auto}.quick-grid{grid-template-columns:1fr 1fr}.quick-grid .btn{grid-column:1/-1}.split,.booking-grid{grid-template-columns:1fr;gap:34px}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:260px 190px 190px}.gallery-large{grid-column:1/-1;grid-row:auto}.amenities{grid-template-columns:1fr 1fr}.rules-grid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:620px){body{padding-bottom:58px}.topbar{display:none}.header .btn-small{display:none}.nav{min-height:64px}.lang-switcher button{padding:5px 7px}.hero{min-height:620px}.hero-content{padding:70px 0}.hero h1{font-size:2.75rem}.hero-actions{flex-direction:column;align-items:stretch}.quick-grid{grid-template-columns:1fr 1fr}.section{padding:64px 0}.feature-list,.form-row,.distance-list{grid-template-columns:1fr}.gallery-grid{display:grid;grid-template-columns:1fr;grid-template-rows:230px repeat(4,180px)}.gallery-large{grid-column:auto}.amenities{grid-template-columns:1fr}.rules-grid{grid-template-columns:1fr 1fr}.legal-strip .container,.footer-bottom{flex-direction:column}.footer-grid{grid-template-columns:1fr}.mobile-bar{position:fixed;bottom:0;left:0;right:0;z-index:60;height:58px;display:grid;grid-template-columns:1.4fr 1fr;background:var(--deep2);box-shadow:0 -8px 25px rgba(0,0,0,.18)}.mobile-bar a{display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900}.mobile-bar a:first-child{background:var(--coral)}}
+
+
+/* Képforrások / Image credits / Créditos de imágenes */
+.sources-page{background:var(--sand);min-height:100vh}
+.sources-nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.sources-back{font-weight:800;color:var(--deep)}
+.sources-back:hover{color:var(--coral)}
+.sources-hero{background:var(--deep);color:#fff;padding:76px 0 64px}
+.sources-hero h1{font-size:clamp(2.2rem,5vw,4rem);line-height:1.05;letter-spacing:-.045em;margin:10px 0 20px}
+.sources-hero p:not(.eyebrow){color:#D6E6EB;font-size:1.02rem}
+.sources-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.source-card{background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:var(--shadow)}
+.source-card img{width:100%;height:270px;object-fit:cover}
+.source-card-body{padding:24px}
+.source-number{display:inline-flex;align-items:center;justify-content:center;min-width:42px;height:28px;padding:0 9px;border-radius:999px;background:var(--sand);color:var(--coral2);font-weight:900;font-size:.8rem}
+.source-card h2{font-size:1.25rem;line-height:1.25;margin:12px 0}
+.source-card p{margin:0 0 12px;color:var(--muted)}
+.source-links{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0}
+.source-links a{display:inline-flex;padding:9px 12px;border-radius:10px;background:var(--deep);color:#fff;font-weight:800;font-size:.88rem}
+.source-links a:hover{background:var(--coral)}
+.source-card small{display:block;color:var(--muted);margin-top:12px}
+.sources-note{background:#fff;padding:64px 0}
+.sources-note h2{font-size:2rem;margin:0 0 14px}
+.sources-note p{color:var(--muted)}
+.sources-footer{padding-top:24px}
+.footer-source-link{display:inline-flex;align-items:center;margin-top:4px;color:#fff!important;font-weight:800;text-decoration:underline;text-underline-offset:4px}
+.footer-source-link:hover{color:#f2c56f!important}
+@media(max-width:760px){
+  .sources-grid{grid-template-columns:1fr}
+  .source-card img{height:220px}
+  .sources-hero{padding:58px 0 50px}
+  .sources-nav{min-height:64px}
+  .sources-back{font-size:.9rem}
+}
